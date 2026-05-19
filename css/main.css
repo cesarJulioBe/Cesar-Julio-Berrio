@@ -25,8 +25,9 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   color: var(--text-dark);
-  background: var(--bg-white);
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 main {

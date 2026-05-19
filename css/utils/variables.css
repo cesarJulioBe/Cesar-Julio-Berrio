@@ -3,11 +3,11 @@
   --primary-color: #6366f1;
   --secondary-color: #8b5cf6;
   --accent-color: #3b82f6;
-  --text-dark: #1a202c;
-  --text-light: #718096;
-  --bg-light: #f7fafc;
-  --bg-white: #ffffff;
-  --border-color: #e2e8f0;
+  --text-dark: #e2e8f0;
+  --text-light: #cbd5e1;
+  --bg-light: #1e293b;
+  --bg-white: #0f172a;
+  --border-color: #334155;
   
   /* Tipografía */
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
