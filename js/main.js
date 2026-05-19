@@ -29,9 +29,19 @@ const skillsData = [
     description: 'Interactividad y manipulación del DOM'
   },
   {
+    icon: '�',
+    title: 'Flutter',
+    description: 'Diseños responsivos y apps móviles'
+  },
+  {
     icon: '🔷',
-    title: 'C#',
+    title: 'Dart',
     description: 'Programación orientada a objetos'
+  },
+  {
+    icon: '🔥',
+    title: 'Firebase',
+    description: 'Bases de datos móviles en tiempo real'
   },
   {
     icon: '🗄️',
@@ -40,8 +50,8 @@ const skillsData = [
   },
   {
     icon: '📊',
-    title: 'Análisis',
-    description: 'Análisis de sistemas y datos'
+    title: 'Git Hub',
+    description: 'Control de versiones y repositorios'
   }
 ];
 
@@ -50,32 +60,39 @@ const skillsData = [
  */
 const projectsData = [
   {
-    icon: '💼',
-    title: 'Proyecto 1',
-    description: 'Descripción del primer proyecto destacado',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    icon: '�',
+    title: 'Supermarket',
+    description: 'Sistema de supermercado con gestión de clases y lógica de negocio',
+    technologies: ['PHP', 'HTML', 'CSS'],
     links: [
-      { label: 'Github', url: '#' },
-      { label: 'Demo', url: '#' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/supermarket' }
     ]
   },
   {
-    icon: '🎯',
-    title: 'Proyecto 2',
-    description: 'Descripción del segundo proyecto',
-    technologies: ['React', 'Node.js', 'PostgreSQL'],
+    icon: '🎬',
+    title: 'Prueba Películas',
+    description: 'Aplicación para explorar y gestionar información de películas',
+    technologies: ['JavaScript', 'API', 'HTML', 'CSS'],
     links: [
-      { label: 'Github', url: '#' },
-      { label: 'Demo', url: '#' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/prueba_peliculas' }
+    ]
+  },
+  {
+    icon: '💰',
+    title: 'Cripto Portafolio',
+    description: 'Portafolio de criptomonedas con seguimiento de inversiones',
+    technologies: ['JavaScript', 'API', 'Firebase'],
+    links: [
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/Cripto_portafolio' }
     ]
   },
   {
     icon: '🚀',
-    title: 'Proyecto 3',
-    description: 'Descripción del tercer proyecto',
-    technologies: ['C#', 'SQL', 'ASP.NET'],
+    title: 'SubeCore',
+    description: 'Núcleo del sistema SubeCore con funcionalidades avanzadas',
+    technologies: ['Dart', 'Flutter', 'Firebase'],
     links: [
-      { label: 'Github', url: '#' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/SubeCore' }
     ]
   }
 ];
