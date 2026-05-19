@@ -1,0 +1,19 @@
+/* Breakpoints */
+/* Mobile (320px - 768px) */
+/* Tablet (768px - 1024px) */
+/* Desktop (1024px+) */
+
+@media (max-width: 768px) {
+  /* Estilos responsivos base */
+  body {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile pequeño */
+  :root {
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+  }
+}

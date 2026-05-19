@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacto - Portafolio Profesional">
+  <title>Contacto - Mi Portafolio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Header/Navegación -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">Dev.portfolio</a>
+      <nav>
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="index.html#habilidades">Habilidades</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección de Contacto -->
+    <section class="contact mt-large mb-large">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        
+        <div style="max-width: 600px; margin: 0 auto; background: var(--bg-light); padding: var(--spacing-2xl); border-radius: var(--radius-lg);">
+          <p style="margin-bottom: var(--spacing-lg); text-align: center; color: var(--text-light);">
+            ¿Tienes alguna pregunta o propuesta? Me encantaría escucharte.
+          </p>
+
+          <form id="contact-form" style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+            <div>
+              <label for="name" style="display: block; margin-bottom: var(--spacing-sm); font-weight: 500;">Nombre</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required
+                style="width: 100%; padding: var(--spacing-md); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-family: inherit;"
+              >
+            </div>
+
+            <div>
+              <label for="email" style="display: block; margin-bottom: var(--spacing-sm); font-weight: 500;">Email</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required
+                style="width: 100%; padding: var(--spacing-md); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-family: inherit;"
+              >
+            </div>
+
+            <div>
+              <label for="message" style="display: block; margin-bottom: var(--spacing-sm); font-weight: 500;">Mensaje</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                required
+                style="width: 100%; padding: var(--spacing-md); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-family: inherit; resize: vertical;"
+              ></textarea>
+            </div>
+
+            <button 
+              type="submit"
+              style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: var(--spacing-md) var(--spacing-lg); border-radius: var(--radius-md); font-weight: bold; cursor: pointer; transition: var(--transition);"
+              onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='var(--shadow-lg)';"
+              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';"
+            >
+              Enviar Mensaje
+            </button>
+          </form>
+
+          <div style="margin-top: var(--spacing-2xl); text-align: center; border-top: 1px solid var(--border-color); padding-top: var(--spacing-2xl);">
+            <h3 style="margin-bottom: var(--spacing-lg);">Otras formas de contactarme</h3>
+            <p>
+              <strong>Email:</strong> <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
+            </p>
+            <p style="margin-bottom: var(--spacing-lg);">
+              <strong>Teléfono:</strong> +57 XXX XXX XXXX
+            </p>
+            <div class="social-links" style="justify-content: center;">
+              <a href="https://github.com" target="_blank" title="GitHub">🐙</a>
+              <a href="https://linkedin.com" target="_blank" title="LinkedIn">💼</a>
+              <a href="https://twitter.com" target="_blank" title="Twitter">🐦</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Navegación</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+            <li><a href="projects.html">Proyectos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Redes Sociales</h3>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" title="GitHub">🐙</a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn">💼</a>
+            <a href="https://twitter.com" target="_blank" title="Twitter">🐦</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mi Portafolio. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
