@@ -37,6 +37,11 @@ footer {
   transition: var(--transition);
 }
 
+.footer-section p,
+.footer-section strong {
+  color: #ffffff;
+}
+
 .footer-section a:hover {
   color: var(--primary-color);
 }
