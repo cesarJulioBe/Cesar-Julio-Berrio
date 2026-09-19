@@ -65,16 +65,16 @@ const projectsData = [
     description: 'Sistema de supermercado con gestión de clases y lógica de negocio',
     technologies: ['PHP', 'HTML', 'CSS'],
     links: [
-      { label: 'Github', url: 'https://github.com/cesarJulioBe/supermarket' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/supermakerket' }
     ]
   },
   {
     icon: '🎬',
     title: 'Prueba Películas',
     description: 'Aplicación para explorar y gestionar información de películas',
-    technologies: ['JavaScript', 'API', 'HTML', 'CSS'],
+    technologies: ['Dart', 'Flutter', 'Firebase', 'API'],
     links: [
-      { label: 'Github', url: 'https://github.com/cesarJulioBe/prueba_peliculas' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/prueba_movies' }
     ]
   },
   {
@@ -83,7 +83,7 @@ const projectsData = [
     description: 'Portafolio de criptomonedas con seguimiento de inversiones',
     technologies: ['JavaScript', 'API', 'Firebase'],
     links: [
-      { label: 'Github', url: 'https://github.com/cesarJulioBe/Cripto_portafolio' }
+      { label: 'Github', url: 'https://github.com/cesarJulioBe/Crypto_portafolio' }
     ]
   },
   {

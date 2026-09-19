@@ -15,6 +15,9 @@ class ProjectCard {
   render() {
     const card = document.createElement('div');
     card.className = 'project-card';
+    card.setAttribute('role', 'link');
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('aria-label', `Ver proyecto ${this.project.title} en GitHub`);
     
     const techTags = this.project.technologies
       .map(tech => `<span class="tech-tag">${tech}</span>`)
@@ -33,6 +36,22 @@ class ProjectCard {
         <div class="project-links">${links}</div>
       </div>
     `;
+
+    const projectUrl = this.project.links[0]?.url;
+    if (projectUrl) {
+      const openProject = (event) => {
+        if (event.target.closest('a')) return;
+        window.open(projectUrl, '_blank', 'noopener,noreferrer');
+      };
+
+      card.addEventListener('click', openProject);
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          window.open(projectUrl, '_blank', 'noopener,noreferrer');
+        }
+      });
+    }
     
     this.element = card;
     return card;
